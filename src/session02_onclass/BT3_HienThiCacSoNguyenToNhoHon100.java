@@ -1,4 +1,4 @@
-package session02_onClass;
+package session02_onclass;
 
 public class BT3_HienThiCacSoNguyenToNhoHon100 {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package session02_onClass;
+package session02_onclass;
 import java.util.Scanner;
 
 public class BT6_MenuChucNang {
