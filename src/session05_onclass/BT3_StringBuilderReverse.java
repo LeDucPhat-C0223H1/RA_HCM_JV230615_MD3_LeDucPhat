@@ -4,6 +4,7 @@ import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class BT3_StringBuilderReverse {
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         while (true) {
@@ -30,3 +31,24 @@ public class BT3_StringBuilderReverse {
         return stringBuffer.toString();
     }
 }
+
+
+//public static void main(String[] args) {
+//    Scanner scanner = new Scanner(System.in);
+//
+//    String str;
+//    while (true) {
+//        System.out.println("Mời nhập chuỗi: ");
+//        str = scanner.nextLine();
+//        String result = Test(str);
+//
+//        System.out.println("Kết quả: " + result );
+//        System.out.println();
+//    }
+//}
+//    public static String Test(String input){
+//        StringBuilder stringBuilder =  new StringBuilder(input);
+//        stringBuilder.reverse();
+//        return stringBuilder.toString();
+//    }
+//}
