@@ -1,6 +1,6 @@
 package DemoSortingAlgorithms;
 
-public class Person implements Comparable<Person> {
+public class Person  {
     private String name;
     private int age;
 
@@ -17,8 +17,8 @@ public class Person implements Comparable<Person> {
                 '}';
     }
 
-    @Override
-    public int compareTo(Person o) {
-        return this.name.compareTo(o.name);
-    }
+//    @Override
+//    public int compareTo(Person o) {
+//        return this.name.compareTo(o.name);
+//    }
 }
